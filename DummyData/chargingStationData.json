@@ -1,0 +1,40 @@
+{
+    "chargeData": [
+      {
+        "chargeStation": "Fastned",
+        "lat": 53.207528,
+        "long": 6.602334,
+        "fastChargingPrice": 0.59,
+        "normalChargingPrice": 0.37
+      },
+      {
+        "chargeStation": "NewMotion",
+        "lat": 53.218413,
+        "long": 6.545874,
+        "fastChargingPrice": 0.63,
+        "normalChargingPrice": 0.39
+      },
+      {
+        "chargeStation": "EVBox",
+        "lat": 53.189514,
+        "long": 6.556658,
+        "fastChargingPrice": 0.57,
+        "normalChargingPrice": 0.35
+      },
+      {
+        "chargeStation": "Ionity",
+        "lat": 53.199508,
+        "long": 6.614307,
+        "fastChargingPrice": 0.65,
+        "normalChargingPrice": 0.40
+      },
+      {
+        "chargeStation": "Allego",
+        "lat": 53.212522,
+        "long": 6.558385,
+        "fastChargingPrice": 0.61,
+        "normalChargingPrice": 0.38
+      }
+    ]
+  }
+  

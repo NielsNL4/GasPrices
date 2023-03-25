@@ -1,6 +1,6 @@
 import React from 'react';
 import { StyleSheet, Text, View } from 'react-native';
-import MapView, { Marker } from 'react-native-maps';
+import MapView, { Callout, Marker } from 'react-native-maps';
 import Constants from 'expo-constants';
 import { useNavigation } from '@react-navigation/native';
 
@@ -9,26 +9,33 @@ export default function HomeScreen() {
 
   return (
     <View style={styles.container}>
-        <Text style={styles.text}>Welcome to the Home Screen</Text>
       <MapView
         style={styles.map}
         initialRegion={{
-          latitude: 37.78825,
-          longitude: -122.4324,
+          latitude: 53.2194,
+          longitude:  6.5665,
           latitudeDelta: 0.0922,
           longitudeDelta: 0.0421,
         }}
       >
         <Marker
           coordinate={{
-            latitude: 37.78825,
-            longitude: -122.4324,
+            latitude: 53.2194,
+            longitude: 6.5665,
           }}
-          title="Marker Title"
+          title="Gas Station"
           description="Marker Description"
-        />
+        >
+            <Callout>
+                <View style={styles.gasStationCallout}> 
+                    <Text style={styles.gasStationTitle}>Gas Station</Text>
+                    <Text style={styles.gasPricesText} >Diesel:</Text>
+                    <Text style={styles.gasPricesText}>Euro95:</Text>
+                    <Text style={styles.gasPricesText}>LPG:</Text>
+                </View>
+            </Callout>
+        </Marker>
       </MapView>
-      <Text style={styles.text}>Welcome to the Home Screen</Text>
     </View>
   );
 }
@@ -50,4 +57,20 @@ const styles = StyleSheet.create({
     fontWeight: 'bold',
     marginVertical: 20,
   },
+    gasStationTitle: {
+        fontSize: 24,
+        fontWeight: 'bold',
+        marginBottom: 20,
+    },
+    gasStationCallout: {
+        backgroundColor: 'white',
+        padding: 10,
+        borderRadius: 10,
+    },
+    gasPricesText: {
+        fontSize: 18,
+        fontWeight: 'bold',
+        marginBottom: 5
+    },
+
 });

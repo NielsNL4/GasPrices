@@ -1,0 +1,85 @@
+{
+    "gasStations": [
+      {
+        "gasStation": "Shell",
+        "lat": 53.205586,
+        "long": 6.572532,
+        "dieselPrice": 1.499,
+        "euro95Price": 1.699,
+        "lpgPrice": 0.699
+      },
+      {
+        "gasStation": "Esso",
+        "lat": 53.206584,
+        "long": 6.576055,
+        "dieselPrice": 1.469,
+        "euro95Price": 1.689,
+        "lpgPrice": 0.719
+      },
+      {
+        "gasStation": "Tango",
+        "lat": 53.219859,
+        "long": 6.551998,
+        "dieselPrice": 1.419,
+        "euro95Price": 1.599,
+        "lpgPrice": 0.659
+      },
+      {
+        "gasStation": "Q8",
+        "lat": 53.210714,
+        "long": 6.557107,
+        "dieselPrice": 1.489,
+        "euro95Price": 1.669,
+        "lpgPrice": 0.739
+      },
+      {
+        "gasStation": "Texaco",
+        "lat": 53.213361,
+        "long": 6.582476,
+        "dieselPrice": 1.469,
+        "euro95Price": 1.659,
+        "lpgPrice": 0.729
+      },
+      {
+        "gasStation": "Firezone",
+        "lat": 53.211561,
+        "long": 6.552738,
+        "dieselPrice": 1.429,
+        "euro95Price": 1.619,
+        "lpgPrice": 0.669
+      },
+      {
+        "gasStation": "Makro",
+        "lat": 53.194311,
+        "long": 6.546585,
+        "dieselPrice": 1.399,
+        "euro95Price": 1.599,
+        "lpgPrice": 0.599
+      },
+      {
+        "gasStation": "Tank S",
+        "lat": 53.188277,
+        "long": 6.598039,
+        "dieselPrice": 1.419,
+        "euro95Price": 1.619,
+        "lpgPrice": 0.689
+      },
+      {
+        "gasStation": "Avia",
+        "lat": 53.169037,
+        "long": 6.752044,
+        "dieselPrice": 1.439,
+        "euro95Price": 1.659,
+        "lpgPrice": 0.719
+      },
+      {
+        "gasStation": "TinQ",
+        "lat": 53.169601,
+        "long": 6.748221,
+        "dieselPrice": 1.399,
+        "euro95Price": 1.599,
+        "lpgPrice": 0.649
+      }
+    ]
+  }
+  
